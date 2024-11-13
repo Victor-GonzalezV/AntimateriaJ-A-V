@@ -1,3 +1,4 @@
+
 /*
 Coloca un mensaje de bienvenida al usuario en amarillo
 */
@@ -32,3 +33,8 @@ console.log(`El facotiral de `, `${numero}`, ` es: `, `${factorial(6)}`);
 /*
 Coloca un mensaje de despedida al usuario en rojo
 */
+
+const { Estadistica } = require("./clases/estadistica");
+
+const estadistica = new Estadistica();
+console.log("El factorial del numero es: ",estadistica.factorial(4));
