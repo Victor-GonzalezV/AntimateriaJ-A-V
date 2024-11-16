@@ -1,18 +1,19 @@
 {
-  "name": "iujo-practica-01",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-  
-    "start": "node app",
-    "mat": "node app && node partipantes"
-
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "colors": "^1.4.0"
-  }
+	"name": "iujo-practica-01",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app",
+		"mat": "node app && node partipantes",
+		"factorial": "node factorial",
+		"combinatoria": "node combinatoria",
+		"permutacion": "node permutacion"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"colors": "^1.4.0"
+	}
 }
